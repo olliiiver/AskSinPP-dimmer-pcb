@@ -1,4 +1,4 @@
-# Homematic 5-channel LED dimmer PCB for Arduino using CC1101 
+# Homematic 5-channel LED dimmer PCB for Arduino using CC1101 (KiCad)
 
 Arduino sketch can be found here:
 
@@ -26,6 +26,6 @@ https://github.com/olliiiver/AskSinPP-rgbwwcw-dimmer
 
 ## Images
 
-![](./render.png)
+![KiCad render](./render.png)
 
-![board photo](https://raw.githubusercontent.com/olliiiver/AskSinPP-dimmer-pcb/master/board.png)
+![board photo](./board.png)
