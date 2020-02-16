@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/user/Documents/kicad/kicad.sch</source>
+    <date>2019 February 10, Sunday 17:03:03</date>
+    <tool>Eeschema (5.1.0-rc1-9-g8f320697a)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>kicad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F6E12</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>R-78E5.0-0.5</value>
+      <footprint>Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="R-78E5.0-0.5" description="500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5FA68B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C606D31</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C60A1EB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C618B17</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63C6D6</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>CC1101</value>
+      <footprint>foo:cc1101</footprint>
+      <libsource lib="cc1101" part="Homebrew_CC1101" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C642134</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Pro_Mini</value>
+      <footprint>foo:Arduino_Pro_Mini</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/ArduinoBoardProMini</datasheet>
+      <libsource lib="Arduino_Pro_Mini" part="Arduino_Pro_Mini" description="Arduino Pro Mini module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C643FC9</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>PCA9634PW</value>
+      <footprint>foo:PCA9634PW</footprint>
+      <fields>
+        <field name="Description">PCA9634PW, LED Driver 16-Segments, 3.3, 5V, 20-Pin TSSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9634PW</field>
+        <field name="Mouser Part Number">771-PCA9634PW</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9634PW</field>
+        <field name="RS Part Number">511030</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/led-display-drivers/511030/?source=DS</field>
+      </fields>
+      <libsource lib="PCA9634PW" part="PCA9634PW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C602B62</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>IRL540NPBF</value>
+      <footprint>TO254P469X1042X1967-3P</footprint>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+      </fields>
+      <libsource lib="IRL540N" part="IRL540NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C61A152</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Output1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C61C206</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>IRL540NPBF</value>
+      <footprint>TO254P469X1042X1967-3P</footprint>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+      </fields>
+      <libsource lib="IRL540N" part="IRL540NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C62C12C</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>IRL540NPBF</value>
+      <footprint>TO254P469X1042X1967-3P</footprint>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+      </fields>
+      <libsource lib="IRL540N" part="IRL540NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C635BB7</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>IRL540NPBF</value>
+      <footprint>TO254P469X1042X1967-3P</footprint>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+      </fields>
+      <libsource lib="IRL540N" part="IRL540NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63E426</tstamp>
+    </comp>
+    <comp ref="M5">
+      <value>IRL540NPBF</value>
+      <footprint>TO254P469X1042X1967-3P</footprint>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+      </fields>
+      <libsource lib="IRL540N" part="IRL540NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C676316</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Output1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C678845</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Output1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C67B0D7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6AFF92</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6B1FDC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Arduino_Pro_Mini" part="Arduino_Pro_Mini">
+      <description>Arduino Pro Mini module</description>
+      <docs>https://www.arduino.cc/en/Main/ArduinoBoardProMini</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Arduino_Pro_Mini</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/ArduinoBoardProMini</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="RAW" type="power_in"/>
+        <pin num="1B" name="GND" type="power_in"/>
+        <pin num="1C" name="DTR" type="passive"/>
+        <pin num="1D" name="1(Tx)" type="passive"/>
+        <pin num="2A" name="GND" type="power_in"/>
+        <pin num="2B" name="A6" type="passive"/>
+        <pin num="2C" name="TXO" type="passive"/>
+        <pin num="2D" name="0(Rx)" type="passive"/>
+        <pin num="3A" name="Reset" type="passive"/>
+        <pin num="3B" name="A7" type="passive"/>
+        <pin num="3C" name="RXI" type="passive"/>
+        <pin num="3D" name="Reset" type="passive"/>
+        <pin num="4A" name="Vcc" type="power_in"/>
+        <pin num="4B" name="A4" type="passive"/>
+        <pin num="4C" name="VCC" type="power_in"/>
+        <pin num="4D" name="Gnd" type="power_in"/>
+        <pin num="5A" name="A3" type="passive"/>
+        <pin num="5B" name="A5" type="passive"/>
+        <pin num="5C" name="GND" type="power_in"/>
+        <pin num="5D" name="2" type="passive"/>
+        <pin num="6A" name="A2" type="passive"/>
+        <pin num="6C" name="GND" type="power_in"/>
+        <pin num="6D" name="3" type="passive"/>
+        <pin num="7A" name="A1" type="passive"/>
+        <pin num="7D" name="4" type="passive"/>
+        <pin num="8A" name="A0" type="passive"/>
+        <pin num="8D" name="5" type="passive"/>
+        <pin num="9A" name="13(SCK)" type="passive"/>
+        <pin num="9D" name="6" type="passive"/>
+        <pin num="10A" name="12(MISO)" type="passive"/>
+        <pin num="10D" name="7" type="passive"/>
+        <pin num="11A" name="11(/MOSI)" type="passive"/>
+        <pin num="11D" name="8" type="passive"/>
+        <pin num="12A" name="10(/SS)" type="passive"/>
+        <pin num="12D" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRL540N" part="IRL540NPBF">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRL540NPBF</field>
+        <field name="Footprint">TO254P469X1042X1967-3P</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irl540npbf.pdf?fileId=5546d462533600a40153565fc2a62567</field>
+        <field name="Description">N-channel MOSFET,IRL540N 30A 100V</field>
+        <field name="Height">4.69</field>
+        <field name="Manufacturer_Name">International Rectifier</field>
+        <field name="Manufacturer_Part_Number">IRL540NPBF</field>
+        <field name="RS Part Number">2509056052</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2509056052</field>
+        <field name="Allied_Number">70017094</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/international-rectifier-irl540npbf/70017094/</field>
+        <field name="Mouser Part Number">942-IRL540NPBF</field>
+        <field name="Mouser Price/Stock">http://www.mouser.com/Search/ProductDetail.aspx?qs=9%252bKlkBgLFf0uZBCvyYsQoQ%3d%3d</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCA9634PW" part="PCA9634PW">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCA9634PW</field>
+        <field name="Footprint">SOP65P640X110-20N</field>
+        <field name="Datasheet">http://docs-emea.rs-online.com/webdocs/0b4d/0900766b80b4d98a.pdf</field>
+        <field name="Description">PCA9634PW, LED Driver 16-Segments, 3.3, 5V, 20-Pin TSSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9634PW</field>
+        <field name="RS Part Number">511030</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/led-display-drivers/511030/?source=DS</field>
+        <field name="Mouser Part Number">771-PCA9634PW</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9634PW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="BiDi"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="LED0" type="BiDi"/>
+        <pin num="7" name="LED1" type="BiDi"/>
+        <pin num="8" name="LED2" type="BiDi"/>
+        <pin num="9" name="LED3" type="BiDi"/>
+        <pin num="10" name="VSS" type="BiDi"/>
+        <pin num="11" name="LED4" type="BiDi"/>
+        <pin num="12" name="LED5" type="BiDi"/>
+        <pin num="13" name="LED6" type="BiDi"/>
+        <pin num="14" name="LED7" type="BiDi"/>
+        <pin num="15" name="~OE" type="BiDi"/>
+        <pin num="16" name="A5" type="BiDi"/>
+        <pin num="17" name="A6" type="BiDi"/>
+        <pin num="18" name="SCL" type="BiDi"/>
+        <pin num="19" name="SDA" type="BiDi"/>
+        <pin num="20" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="R-78E5.0-0.5">
+      <aliases>
+        <alias>R-78E3.3-0.5</alias>
+        <alias>R-78E9.0-0.5</alias>
+        <alias>R-78E12-0.5</alias>
+        <alias>R-78E15-0.5</alias>
+        <alias>R-78E5.0-1.0</alias>
+        <alias>R-78E3.3-1.0</alias>
+        <alias>R-78C1.8-1.0</alias>
+        <alias>R-78C5.0-1.0</alias>
+        <alias>R-78C3.3-1.0</alias>
+        <alias>R-78C9.0-1.0</alias>
+        <alias>R-78C12-1.0</alias>
+        <alias>R-78C15-1.0</alias>
+        <alias>R-781.8-1.0</alias>
+        <alias>R-782.5-1.0</alias>
+        <alias>R-783.3-1.0</alias>
+        <alias>R-785.0-1.0</alias>
+        <alias>R-781.5-0.5</alias>
+        <alias>R-781.8-0.5</alias>
+        <alias>R-782.5-0.5</alias>
+        <alias>R-783.3-0.5</alias>
+        <alias>R-785.0-0.5</alias>
+        <alias>R-786.5-0.5</alias>
+        <alias>R-7812-0.5</alias>
+        <alias>R-7815-0.5</alias>
+      </aliases>
+      <description>500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <docs>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*RECOM*R*78E*0.5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78E5.0-0.5</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1101" part="Homebrew_CC1101">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Homebrew_CC1101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="SCLK" type="input"/>
+        <pin num="5" name="MISO" type="output"/>
+        <pin num="6" name="GDO2" type="output"/>
+        <pin num="7" name="GDO0" type="output"/>
+        <pin num="8" name="CSN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Arduino_Pro_Mini">
+      <uri>/Users/user/Documents/kicad/Arduino_Pro_Mini.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="IRL540N">
+      <uri>/Users/user/Documents/kicad/IRL540NPBF.lib</uri>
+    </library>
+    <library logical="PCA9634PW">
+      <uri>/Users/user/Documents/kicad/PCA9634PW.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/Library/Application Support/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="cc1101">
+      <uri>/Users/user/Documents/kicad/cc1101.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+24V">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="M1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="A2" pin="2"/>
+      <node ref="M4" pin="3"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="A1" pin="2A"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="M3" pin="3"/>
+      <node ref="M5" pin="3"/>
+      <node ref="P4" pin="2"/>
+      <node ref="M2" pin="3"/>
+    </net>
+    <net code="4" name="Net-(A2-Pad6)">
+      <node ref="A2" pin="6"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="A1" pin="4A"/>
+      <node ref="A2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad1A)">
+      <node ref="A1" pin="1A"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad3A)">
+      <node ref="A1" pin="3A"/>
+    </net>
+    <net code="8" name="Net-(A1-Pad5A)">
+      <node ref="A1" pin="5A"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad6A)">
+      <node ref="A1" pin="6A"/>
+    </net>
+    <net code="10" name="Net-(A1-Pad7A)">
+      <node ref="A1" pin="7A"/>
+    </net>
+    <net code="11" name="Net-(A1-Pad8A)">
+      <node ref="A1" pin="8A"/>
+    </net>
+    <net code="12" name="Net-(A1-Pad9A)">
+      <node ref="A1" pin="9A"/>
+      <node ref="A2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(A1-Pad1B)">
+      <node ref="A1" pin="1B"/>
+    </net>
+    <net code="14" name="Net-(A1-Pad2B)">
+      <node ref="A1" pin="2B"/>
+    </net>
+    <net code="15" name="Net-(A1-Pad3B)">
+      <node ref="A1" pin="3B"/>
+    </net>
+    <net code="16" name="Net-(A1-Pad1C)">
+      <node ref="A1" pin="1C"/>
+    </net>
+    <net code="17" name="Net-(A1-Pad2C)">
+      <node ref="A1" pin="2C"/>
+    </net>
+    <net code="18" name="Net-(A1-Pad3C)">
+      <node ref="A1" pin="3C"/>
+    </net>
+    <net code="19" name="Net-(A1-Pad4C)">
+      <node ref="A1" pin="4C"/>
+    </net>
+    <net code="20" name="Net-(A1-Pad5C)">
+      <node ref="A1" pin="5C"/>
+    </net>
+    <net code="21" name="Net-(A1-Pad6C)">
+      <node ref="A1" pin="6C"/>
+    </net>
+    <net code="22" name="Net-(A1-Pad1D)">
+      <node ref="A1" pin="1D"/>
+    </net>
+    <net code="23" name="Net-(A1-Pad2D)">
+      <node ref="A1" pin="2D"/>
+    </net>
+    <net code="24" name="Net-(A1-Pad3D)">
+      <node ref="A1" pin="3D"/>
+    </net>
+    <net code="25" name="Net-(A1-Pad4D)">
+      <node ref="A1" pin="4D"/>
+    </net>
+    <net code="26" name="Net-(A1-Pad5D)">
+      <node ref="A1" pin="5D"/>
+      <node ref="A2" pin="7"/>
+    </net>
+    <net code="27" name="Net-(A1-Pad6D)">
+      <node ref="A1" pin="6D"/>
+    </net>
+    <net code="28" name="Net-(A1-Pad7D)">
+      <node ref="A1" pin="7D"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad8D)">
+      <node ref="A1" pin="8D"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad9D)">
+      <node ref="A1" pin="9D"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad10A)">
+      <node ref="A1" pin="10A"/>
+      <node ref="A2" pin="5"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad11A)">
+      <node ref="A1" pin="11A"/>
+      <node ref="A2" pin="3"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad12A)">
+      <node ref="A1" pin="12A"/>
+      <node ref="A2" pin="8"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad10D)">
+      <node ref="A1" pin="10D"/>
+    </net>
+    <net code="35" name="Net-(A1-Pad11D)">
+      <node ref="A1" pin="11D"/>
+    </net>
+    <net code="36" name="Net-(A1-Pad12D)">
+      <node ref="A1" pin="12D"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="40" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+      <node ref="M5" pin="1"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(M1-Pad2)">
+      <node ref="P2" pin="1"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(M2-Pad2)">
+      <node ref="M2" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad13)">
+      <node ref="M2" pin="1"/>
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad12)">
+      <node ref="M3" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="46" name="Net-(M3-Pad2)">
+      <node ref="M3" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad11)">
+      <node ref="M4" pin="1"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="48" name="Net-(M4-Pad2)">
+      <node ref="P3" pin="2"/>
+      <node ref="M4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(M5-Pad2)">
+      <node ref="P4" pin="1"/>
+      <node ref="M5" pin="2"/>
+    </net>
+    <net code="50" name="Net-(A1-Pad4B)">
+      <node ref="IC1" pin="19"/>
+      <node ref="R1" pin="1"/>
+      <node ref="A1" pin="4B"/>
+    </net>
+    <net code="51" name="Net-(A1-Pad5B)">
+      <node ref="IC1" pin="18"/>
+      <node ref="A1" pin="5B"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>
