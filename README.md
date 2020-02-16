@@ -28,4 +28,4 @@ https://github.com/olliiiver/AskSinPP-rgbwwcw-dimmer
 
 ![](./render.png =600x)
 
-![](./board.png =600x)
+![board photo](https://raw.githubusercontent.com/olliiiver/AskSinPP-dimmer-pcb/master/board.png =600x)
