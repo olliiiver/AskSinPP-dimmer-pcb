@@ -8,6 +8,7 @@ https://github.com/olliiiver/AskSinPP-rgbwwcw-dimmer
 ## Features
 
 - 12-24 volt
+- 256-step 97 kHz PWM
 
 ## BOM
 
