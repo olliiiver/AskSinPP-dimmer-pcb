@@ -9,6 +9,7 @@ https://github.com/olliiiver/AskSinPP-rgbwwcw-dimmer
 
 - 12-24 volt
 - 256-step 97 kHz PWM
+- TTH or SMD for filter capacitors 
 
 ## BOM
 
